@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Preview da Câmera -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewViewScanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Overlay Escuro com Retângulo de Mira -->
+    <View
+        android:id="@+id/viewScanBox"
+        android:layout_width="642dp"
+        android:layout_height="201dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/scanner_box_border" />
+
+    <!-- Texto de Instrução -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewScanBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/mira_scanner_hint"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:background="#80000000"
+        android:padding="8dp" />
+
+    <!-- Botão Fechar (X) -->
+    <ImageButton
+        android:id="@+id/btnCloseScanner"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="@string/fechar_scanner"
+        app:tint="#FFFFFF" />
+
+</RelativeLayout>

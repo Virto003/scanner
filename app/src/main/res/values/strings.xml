@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="accessibility_service_description">Permite que o Scanner insira automaticamente códigos de barras escaneados no campo de texto focado.</string>
+
+    <!-- MainActivity -->
+    <string name="titulo_configuracao">Configuração do Scanner</string>
+    <string name="subtitulo_configuracao">Para que o botão flutuante funcione sobre outros aplicativos e digite os códigos automaticamente, conceda as permissões abaixo:</string>
+    <string name="perm_camera_titulo">1. Permissão da Câmera</string>
+    <string name="perm_overlay_titulo">2. Sobreposição de Tela (Botão Flutuante)</string>
+    <string name="perm_accessibility_titulo">3. Serviço de Acessibilidade (Preenchimento Automático)</string>
+    <string name="btn_conceder">Conceder</string>
+    <string name="status_concedido">✓ Ativado</string>
+    <string name="status_pendente">✕ Pendente</string>
+    <string name="teste_titulo">Testar o Scanner:</string>
+    <string name="hint_teste">Clique no botão flutuante e escaneie um código&#8230;</string>
+
+    <!-- ScannerActivity -->
+    <string name="mira_scanner_hint">Aponte a câmera para um Código de Barras ou QR Code</string>
+    <string name="fechar_scanner">Fechar</string>
+
+    <!-- Toasts -->
+    <string name="codigo_inserido">Código inserido: %1$s</string>
+    <string name="codigo_copiado">Código copiado para a área de transferência: %1$s</string>
+    <string name="servico_nao_ativo">Ative o serviço de acessibilidade do Scanner nas configurações.</string>
+</resources>

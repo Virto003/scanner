@@ -1,0 +1,48 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/DALVIK VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+/bin/
+/gen/
+/out/
+/build/
+/*/build/
+.cxx/
+.externalNativeBuild/
+
+# Android Studio & IntelliJ project files
+*.iml
+.idea/
+!.idea/copyright/
+!.idea/codeStyles/
+.DS_Store
+Thumbs.db
+captures/
+
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# Kotlin files
+.kotlin/
+
+# Log files
+*.log
+
+# Keystore & Signing files
+*.jks
+*.keystore
+*.pepk
+
+# Sensitive configuration files
+google-services.json
